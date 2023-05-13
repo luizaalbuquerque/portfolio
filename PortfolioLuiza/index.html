@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class ="container">
+        <div class="mainNav">
+            <div class="navbar1">
+              <h2 id="typing-text"></h2>
+            </div>
+        
+            <div class="navbar2">
+                <ul>
+                  <li><a href="index.html">About</a></li>
+                  <li><a href="#" onclick="toggleContact()">Contact</a></li>
+                </ul>
+                <div id="contact-content" style="display: none;">
+
+                    <li><a href="https://github.com/luizaalbuquerque">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/luiza-cavalcanti">LinkedIn</a></li>
+                    <li><a href="mailto:albuquerqueluizac@gmail.com">albuquerqueluizac@gmail.com</a></li>
+                </div>
+              </div>      
+           
+            </div>
+        </div>
+  <div class="about">
+    <div class="me">
+        <h1>Luiza Albuquerque</h1>
+    </div>
+
+    <div class="imageme">
+        <img src="./img/me.jpg" alt="Profile Pic">
+    </div>
+</div>
+
+    <div class="intro">
+        <p>My focus is on creating meaningful experience through design, with a user-centred approach that is the UX and UI implementation. I have  hands-on experience with a range of tools such as Figma, Canva, Sketch and more. As a developer, I am proficient in HTML, CSS, JavaScript, Xcode, Python, Rest API, Git and other languages and frameworks.</p>
+  
+        <p> I am always eager to hear from others in the industry, so feel free to contact me.</p>
+    </div>
+    <div class="aboutme">
+        <h4>About Me</h4>
+
+<div class="images1">
+  <div class="images2">
+    <div class="overlay">
+      <button class="button" onclick="displayText('work-experience')">Work Experience</button>
+    </div>
+    <img src="./img/workexperience.jpg" alt="Work Experience">
+  </div>
+  <div class="images2">
+    <div class="overlay">
+      <button class="button" onclick="displayText('education')">Education</button>
+    </div>
+    <img src="./img/education.jpg" alt="Education">
+  </div>
+  <div class="images2">
+    <div class="overlay">
+      <button class="button" onclick="displayText('personal-projects')">Personal Projects</button>
+    </div>
+    <img src="./img/personalprojects.jpg" alt="Personal Projects">
+  </div>
+  <div class="images2">
+    <div class="overlay">
+      <button class="button" onclick="displayText('mentoring-and-volunteering')">Mentoring & Volunteering</button>
+    </div>
+    <img src="./img/mentoringandvolunteering.jpg" alt="Mentoring & Volunteering">
+  </div>
+  <div class="images2">
+    <div class="overlay">
+      <button class="button" onclick="displayText('soft-skills')">Soft Skills</button>
+    </div>
+    <img src="./img/softskills.jpg" alt="Soft Skills">
+  </div>
+</div>
+        
+        <div id="about-me"></div>
+        </div>
+      
+      <div id="copy"> Luiza Albuquerque &copy; #bitsofmyjourney</div>
+      
+      <script src="script.js"></script>
+      

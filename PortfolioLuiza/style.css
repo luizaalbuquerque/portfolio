@@ -1,0 +1,139 @@
+
+body{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mainNav{
+width: 100%;
+display: flex;
+margin-bottom: 20px;
+}
+
+.navbar1{
+width: 60%;
+padding-top: 20px;
+margin:20px;
+}
+
+.navbar2{
+width: 40%;
+text-align: right;
+padding-left: 10px;
+padding-top: 40px;
+}
+
+.navbar2 ul li a {
+color:blue; 
+}
+
+.navbar2 ul li a:hover,
+.navbar2 ul li a:focus {
+color:rgb(95, 106, 111);
+}
+
+li{
+list-style: none;
+margin-left: 25px;
+}
+
+.about{
+display: flex;
+float: right;
+width: 500px;
+}
+.me{
+width:300px;
+text-align: right;
+padding-left: 20px;
+padding-top: 50px;
+}
+
+.imageme img{
+float: right;
+width: 130px;
+height: 150px;
+border-radius: 10px;
+margin-left: 20px;
+}
+
+.intro{
+text-align:justify;
+margin: 25px;
+padding-right: 250px;
+padding-left: 60px;
+
+}
+.aboutme {
+  width: 900px;
+  transition-duration: 150ms;
+  transition-timing-function: ease-in-out;
+  text-align:justify;
+  margin: 30px;
+  padding-right: 350px;
+  padding-left: 50px;
+}
+.aboutme:hover {
+  text-decoration: none;
+
+}
+
+.aboutme a{
+  text-align: center;
+}
+
+.images1 {
+display: flex;
+padding-bottom: 20px;
+}
+
+.images1 img {
+display: inline-block;
+width: 150px;
+margin: 15px;
+border-radius: 10px;
+}
+
+#copy {
+  text-align: center;
+}
+
+ul {
+  display: inline-flex;
+}
+
+.images2 {
+position: relative;
+}
+
+.overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+opacity: 0;
+transition: opacity 0.5s;
+}
+
+.button {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 16px;
+color: #fff;
+background-color: #333;
+opacity: 0.8;
+width: 150px;
+border-radius: 10px;
+height: 180px;
+}
+
+#copy{
+padding-left: 50px;
+border-left: 50px;
+
+}
+.overlay:hover {
+opacity: 1;
+}
