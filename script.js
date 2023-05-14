@@ -1,10 +1,10 @@
 window.onload = function() {
   var sentence = "I am a Junior Designer with a software development background with over 3 years of experience.";
-  var typingTextElement = document.getElementById("typing-text");
+  var typingText = document.getElementById("typing");
 
   function typeSentence(index) {
     if (index < sentence.length) {
-      typingTextElement.innerHTML += sentence.charAt(index);
+      typingText.innerHTML += sentence.charAt(index);
       index++;
       setTimeout(function() {
         typeSentence(index);
