@@ -3,27 +3,45 @@ body{
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+body.dark-mode{
+background-color: #333333;
+color: #ffffff;
+}
+.darkmode{
+border-radius: 3px;
+margin-left: 70px;
+margin-bottom: 20px;
+}
+
+#darkModeToggle{
+background-color: #797777;
+color: #fff;
+}
+
 .mainNav{
 width: 100%;
 display: flex;
 margin-bottom: 20px;
 }
 
-.navbar1{
+#typing-text{
 width: 60%;
 padding-top: 20px;
 margin:20px;
+text-align: left;
+
 }
 
 .navbar2{
 width: 40%;
 text-align: right;
-padding-left: 10px;
+padding-left: 20px;
 padding-top: 40px;
+
 }
 
 .navbar2 ul li a {
-color:blue; 
+color:rgb(103, 164, 218); 
 }
 
 .navbar2 ul li a:hover,

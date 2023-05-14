@@ -15,6 +15,16 @@ window.onload = function() {
   typeSentence(0);
 };
 
+// Get the toggle button element
+var toggleButton = document.getElementById('darkModeToggle');
+
+// Add event listener to the toggle button
+toggleButton.addEventListener('click', function() {
+  // Toggle the "dark-mode" class on the body element
+  document.body.classList.toggle('dark-mode');
+});
+
+
 
 function toggleContact() {
   var contactContent = document.getElementById("contact-content");
