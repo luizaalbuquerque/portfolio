@@ -1,13 +1,10 @@
 
-   @media screen and (max-width: 750px) {
-
-    
-   body{
+    body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 20px;
     margin-right: 50px;
    
-    }}
+    }
 
     #typing{
     text-align:justify; 
