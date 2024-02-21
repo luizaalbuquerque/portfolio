@@ -43,7 +43,7 @@ window.onload = function() {
     } else if (section === "education") {
       text = "<h4>Education</h4><p>Bachelor of Science in Computing and Information Technology – CCT College Dublin NFQ level 8 - 2020 to present</p>";
     } else if (section === "personal-projects") {
-      text = "<h4>Certifications</h4><p>Java LinkedIn Skill Assessment - Sep 2022</p><p>Python Programming – CCT College Dublin - Aug 2022</p><p>Diploma in Digital Marketing -CCT College Dublin - Aug 2021</p><p>Food Safety Training for Management level 3 - BWG foods UC - Sep 2022</p><p>Atlas Language School – Advanced Level English certification</p>";
+      text = "<h4>Certifications</h4><p>AWS Academy Graduate - Cloud Foundations - Jan 2024</p><p>Java LinkedIn Skill Assessment - Sep 2022</p><p>Python Programming – CCT College Dublin - Aug 2022</p><p>Diploma in Digital Marketing -CCT College Dublin - Aug 2021</p><p>Food Safety Training for Management level 3 - BWG foods UC - Sep 2022</p><p>Atlas Language School – Advanced Level English certification</p>";
     } else if (section === "mentoring-and-volunteering") {
       text = "<h4>Mentoring and Volunteering:</h4><h5>Student Mentoring Academy - CCT College Dublin - September 2021 to present</h5><p>Mentoring the subjects: JAVA, PYTHON, MATH, NETWORKING and DATABASES</p><h5>Sales Assistant voluntary at St Vincent de Paul in George´s Street – Ireland, May 2019 to September 2019</h5><p>Specific housekeeping, organisation of books and knowledge about it, cooperation with manager, conference members and other volunteers.</p>";
     } else if (section === "soft-skills") {
