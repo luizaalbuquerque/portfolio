@@ -1,6 +1,6 @@
 // function to load main header when page loads
 window.onload = function() {
-    var sentence = "I am a Junior Designer with a software development background with over 3 years of experience.";
+    var sentence = "I am currently working as a cloud engineer, at Amazon Web Services (AWS), before that, I was a Junior Designer with a software development background with over 3 years of experience.";
     var typingText = document.getElementById("typing");
 //  function to type sentence 
     function typeSentence(index) {
